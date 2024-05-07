@@ -1,0 +1,132 @@
+
+body {
+  background-image: url(./doodle-checklist-set-to-do-task-list-vector.jpg);
+  font-family: "Poppins", sans-serif;
+  background-color: #f9f9f9;
+}
+.navbar {
+  background-color: rgb(54, 43, 43);
+}
+.navbar-brand {
+  color: #fff;
+  font-weight: bold;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+.navbar-nav.nav-link {
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin: 0 5px;
+  border-radius: 4px;
+}
+.container {
+  max-width: 800px;
+  margin: 50px auto;
+  background: #fff;
+  padding: 40px;
+  border-radius: 8px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 30px;
+}
+input[type="text"],
+input[type="password"] {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+button {
+  width: 10%;
+  padding: 10px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+button:hover {
+  background-color: #0056b3;
+}
+.signup-link {
+  text-align: center;
+  margin-top: 20px;
+}
+.signup-link a {
+  color: #007bff;
+  text-decoration: none;
+}
+.forgot-password {
+  text-align: right;
+  margin-bottom: 20px;
+}
+.completed {
+  text-decoration: line-through;
+}
+.todo-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+  flex-wrap: wrap;
+}
+.todo-item input[type="checkbox"] {
+  margin-left: auto;
+  margin-top: 5px;
+}
+.task-item {
+  margin-right: 10px;
+}
+
+.navbar-nav {
+  gap: 20px;
+}
+.navbar-nav.nav-link:hover {
+  background-color: #333;
+  color: #fff;
+  transition: background-color 0.3s ease;
+}
+
+.todo-item {
+  border: 1px solid #ccc;
+  padding: 10px;
+  border-radius: 4px;
+}
+
+.todo-item:nth-child(even) {
+  background-color: #d6a4a4;
+}
+.todo-item:nth-child(odd) {
+  background-color: #b6a2a2;
+}
+
+/* Popup box styles */
+.popup {
+  display: none;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+  z-index: 1000;
+}
+
+.popup h2 {
+  color: green;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.navbar-nav .nav-link:hover {
+  background-color: #333;
+  color: #fff;
+  transition: background-color 0.3s ease;
+}
